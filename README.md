@@ -8,7 +8,7 @@ A Cython reverse helper with analyzing Ghidra P-Code. (For 2024 CTFCON)
 
 ## usage
 
-1. Use Ghidra to open the .pyd/.so cython file, and put this script into ghidra's script directory.
+1. Use Ghidra to open the .so cython file, and put this script into ghidra's script directory.
 
 2. "Window" > "Script Manager" > double click this script.
 
@@ -21,6 +21,7 @@ A Cython reverse helper with analyzing Ghidra P-Code. (For 2024 CTFCON)
 ## TODO
 
 - **Update to the IDAPython script.**
+- Add support to the .pyd file.
 - Support more versions of Python.
 - Print the general process of the function.
 - Get Python's list from pseudocode.
